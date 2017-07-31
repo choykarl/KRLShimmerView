@@ -12,6 +12,7 @@
 		CBB1AC071F2C9EB100E405B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB1AC051F2C9EB100E405B1 /* Main.storyboard */; };
 		CBB1AC091F2C9EB100E405B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1AC081F2C9EB100E405B1 /* Assets.xcassets */; };
 		CBB1AC0C1F2C9EB100E405B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB1AC0A1F2C9EB100E405B1 /* LaunchScreen.storyboard */; };
+		CBB1AC181F2E40A700E405B1 /* KRLShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1AC171F2E40A700E405B1 /* KRLShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CBB1AC081F2C9EB100E405B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB1AC0B1F2C9EB100E405B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB1AC0D1F2C9EB100E405B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB1AC171F2E40A700E405B1 /* KRLShimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRLShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CBB1AC011F2C9EB100E405B1 /* AppDelegate.swift */,
 				CBB1AC031F2C9EB100E405B1 /* ViewController.swift */,
+				CBB1AC171F2E40A700E405B1 /* KRLShimmerView.swift */,
 				CBB1AC051F2C9EB100E405B1 /* Main.storyboard */,
 				CBB1AC081F2C9EB100E405B1 /* Assets.xcassets */,
 				CBB1AC0A1F2C9EB100E405B1 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB1AC181F2E40A700E405B1 /* KRLShimmerView.swift in Sources */,
 				CBB1AC041F2C9EB100E405B1 /* ViewController.swift in Sources */,
 				CBB1AC021F2C9EB100E405B1 /* AppDelegate.swift in Sources */,
 			);
